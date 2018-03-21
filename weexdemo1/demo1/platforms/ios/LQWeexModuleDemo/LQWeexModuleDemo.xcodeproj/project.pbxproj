@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5402EFBF2058D1AF00DCF372 /* LQWeexModuleDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402EFBE2058D1AF00DCF372 /* LQWeexModuleDemo.m */; };
+		5402EFC02058D1AF00DCF372 /* LQWeexModuleDemo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5402EFBD2058D1AF00DCF372 /* LQWeexModuleDemo.h */; };
+		54D5F7BB2062478F003E5FAA /* CDDActionSheetModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D5F7B92062478F003E5FAA /* CDDActionSheetModule.m */; };
+		54D5F7C2206247B6003E5FAA /* FDActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D5F7C1206247B6003E5FAA /* FDActionSheet.m */; };
+		54D5F7C6206247BD003E5FAA /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D5F7C5206247BD003E5FAA /* UIColor+Hex.m */; };
+		E54572764C19FF63A99564AF /* libPods-LQWeexModuleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED103C98BC58BEE4FB75136E /* libPods-LQWeexModuleDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5402EFB82058D1AF00DCF372 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5402EFC02058D1AF00DCF372 /* LQWeexModuleDemo.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5402EFBA2058D1AF00DCF372 /* libLQWeexModuleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLQWeexModuleDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5402EFBD2058D1AF00DCF372 /* LQWeexModuleDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQWeexModuleDemo.h; sourceTree = "<group>"; };
+		5402EFBE2058D1AF00DCF372 /* LQWeexModuleDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQWeexModuleDemo.m; sourceTree = "<group>"; };
+		54D5F7B92062478F003E5FAA /* CDDActionSheetModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDDActionSheetModule.m; sourceTree = "<group>"; };
+		54D5F7BA2062478F003E5FAA /* CDDActionSheetModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDDActionSheetModule.h; sourceTree = "<group>"; };
+		54D5F7C0206247B6003E5FAA /* FDActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDActionSheet.h; sourceTree = "<group>"; };
+		54D5F7C1206247B6003E5FAA /* FDActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDActionSheet.m; sourceTree = "<group>"; };
+		54D5F7C4206247BD003E5FAA /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		54D5F7C5206247BD003E5FAA /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		99558EDCECF0B45C9166386A /* Pods-LQWeexModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQWeexModuleDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-LQWeexModuleDemo/Pods-LQWeexModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B50B8AD998EFDE715E35DDAA /* Pods-LQWeexModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQWeexModuleDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-LQWeexModuleDemo/Pods-LQWeexModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ED103C98BC58BEE4FB75136E /* libPods-LQWeexModuleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LQWeexModuleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5402EFB72058D1AF00DCF372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54572764C19FF63A99564AF /* libPods-LQWeexModuleDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51E1B0F5A55C9D1FEA4EBD05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED103C98BC58BEE4FB75136E /* libPods-LQWeexModuleDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5402EFB12058D1AF00DCF372 = {
+			isa = PBXGroup;
+			children = (
+				5402EFBC2058D1AF00DCF372 /* LQWeexModuleDemo */,
+				5402EFBB2058D1AF00DCF372 /* Products */,
+				E977607192CBBD4FAA43A878 /* Pods */,
+				51E1B0F5A55C9D1FEA4EBD05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5402EFBB2058D1AF00DCF372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5402EFBA2058D1AF00DCF372 /* libLQWeexModuleDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5402EFBC2058D1AF00DCF372 /* LQWeexModuleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				54D5F7C3206247BD003E5FAA /* UIColor+Hex */,
+				54D5F7BF206247B6003E5FAA /* FDActionSheet */,
+				5402EFBD2058D1AF00DCF372 /* LQWeexModuleDemo.h */,
+				5402EFBE2058D1AF00DCF372 /* LQWeexModuleDemo.m */,
+				54D5F7BA2062478F003E5FAA /* CDDActionSheetModule.h */,
+				54D5F7B92062478F003E5FAA /* CDDActionSheetModule.m */,
+			);
+			path = LQWeexModuleDemo;
+			sourceTree = "<group>";
+		};
+		54D5F7BF206247B6003E5FAA /* FDActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				54D5F7C0206247B6003E5FAA /* FDActionSheet.h */,
+				54D5F7C1206247B6003E5FAA /* FDActionSheet.m */,
+			);
+			path = FDActionSheet;
+			sourceTree = "<group>";
+		};
+		54D5F7C3206247BD003E5FAA /* UIColor+Hex */ = {
+			isa = PBXGroup;
+			children = (
+				54D5F7C4206247BD003E5FAA /* UIColor+Hex.h */,
+				54D5F7C5206247BD003E5FAA /* UIColor+Hex.m */,
+			);
+			path = "UIColor+Hex";
+			sourceTree = "<group>";
+		};
+		E977607192CBBD4FAA43A878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99558EDCECF0B45C9166386A /* Pods-LQWeexModuleDemo.debug.xcconfig */,
+				B50B8AD998EFDE715E35DDAA /* Pods-LQWeexModuleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5402EFB92058D1AF00DCF372 /* LQWeexModuleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5402EFC32058D1AF00DCF372 /* Build configuration list for PBXNativeTarget "LQWeexModuleDemo" */;
+			buildPhases = (
+				BE58FFAB474D578E5B7627ED /* [CP] Check Pods Manifest.lock */,
+				5402EFB62058D1AF00DCF372 /* Sources */,
+				5402EFB72058D1AF00DCF372 /* Frameworks */,
+				5402EFB82058D1AF00DCF372 /* CopyFiles */,
+				B49C6BCFDA833E292AAD8C6D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQWeexModuleDemo;
+			productName = LQWeexModuleDemo;
+			productReference = 5402EFBA2058D1AF00DCF372 /* libLQWeexModuleDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5402EFB22058D1AF00DCF372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = liqian;
+				TargetAttributes = {
+					5402EFB92058D1AF00DCF372 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5402EFB52058D1AF00DCF372 /* Build configuration list for PBXProject "LQWeexModuleDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5402EFB12058D1AF00DCF372;
+			productRefGroup = 5402EFBB2058D1AF00DCF372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5402EFB92058D1AF00DCF372 /* LQWeexModuleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B49C6BCFDA833E292AAD8C6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LQWeexModuleDemo/Pods-LQWeexModuleDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE58FFAB474D578E5B7627ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LQWeexModuleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5402EFB62058D1AF00DCF372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5402EFBF2058D1AF00DCF372 /* LQWeexModuleDemo.m in Sources */,
+				54D5F7C6206247BD003E5FAA /* UIColor+Hex.m in Sources */,
+				54D5F7BB2062478F003E5FAA /* CDDActionSheetModule.m in Sources */,
+				54D5F7C2206247B6003E5FAA /* FDActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5402EFC12058D1AF00DCF372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5402EFC22058D1AF00DCF372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5402EFC42058D1AF00DCF372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99558EDCECF0B45C9166386A /* Pods-LQWeexModuleDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5402EFC52058D1AF00DCF372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50B8AD998EFDE715E35DDAA /* Pods-LQWeexModuleDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5402EFB52058D1AF00DCF372 /* Build configuration list for PBXProject "LQWeexModuleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5402EFC12058D1AF00DCF372 /* Debug */,
+				5402EFC22058D1AF00DCF372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5402EFC32058D1AF00DCF372 /* Build configuration list for PBXNativeTarget "LQWeexModuleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5402EFC42058D1AF00DCF372 /* Debug */,
+				5402EFC52058D1AF00DCF372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5402EFB22058D1AF00DCF372 /* Project object */;
+}
